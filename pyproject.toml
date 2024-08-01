@@ -1,0 +1,5 @@
+[tool.django-stubs]
+django_settings_module = "zproject.settings"
+
+[tool.mypy]
+plugins = ["mypy_django_plugin.main"]
